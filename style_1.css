@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/bg.jpg);
+    background-size:cover;
+}
+header{
+    margin: auto;
+}
+footer{
+    border-top:1px solid gray;
+    padding:20px;
+    text-align: center;
+}
+.content{
+    display:flex;
+    border-top:1px solid gray;
+}
+main{
+    padding:10px;
+}
+#header{
+  text-align: center;
+  padding:1rem;
+}
+#header ul.icons li{
+  display: inline-block;
+  border-radius: 100%;
+  border:1px solid rgba(255,255,255,0.25);
+  background-color: rgba(255,255,255,0.05);
+  width:3rem;
+  height:3rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right:1rem;
+}
+#header ul.icons li:hover{
+  border:1px solid rgba(255,255,255,0.25);
+  background-color: rgba(255,255,255,0.2);
+  text-decoration: none;    
+}
+#header ul.icons li a{
+  color:rgba(255,255,255,0.5);
+  text-decoration: none;
+}
+#header ul.icons li a:before{
+  font-size:1.5rem;
+}
+#footer{
+  text-align: center;
+  color:rgba(255,255,255,0.5);
+  font-weight: 200;
+  padding-bottom: 2rem;
+  font-size:0.8rem;
+}
+#footer a{
+  color:rgba(255,255,255,0.5);
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255,255,255,0.5);
+}
+/*@media(max-width:480px){
+  #main .thumbnails {
+    display: block;
+  } */
+/* 메인 상품이미지 시작부분 */
+#columns{
+        column-width:210px;
+        column-gap: 15px;
+      }
+      #columns figure{
+        display: inline-block;
+        border:1px solid rgba(0,0,0,0.2);
+        margin:0;
+        margin-bottom: 15px;
+        padding:10px;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.5);;
+      }
+      #columns figure img{
+        width:100%;
+      }
+      #columns figure figcaption{
+        border-top:1px solid rgba(0,0,0,0.2);
+        padding:10px;
+        margin-top:11px;
+        text-align: center;  
+      }
+figcaption h1{
+    background-color: rgba(172, 171, 212, 0.3);
+    padding: 7px;
+}
+
+/* 메인상품 끝부분 */
