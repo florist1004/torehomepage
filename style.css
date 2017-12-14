@@ -140,10 +140,5 @@ figcaption h1{
     background-color: rgba(172, 171, 212, 0.3);
     padding: 7px;
 }
-@media(max-width:480px){
-  #main .thumbnails {
-    display: block;
-  }
-}
 
 /* 메인상품 끝부분 */
