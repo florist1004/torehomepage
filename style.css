@@ -109,11 +109,6 @@ nav ul.icons li a{
   text-decoration: none;
   border-bottom: 1px dotted rgba(255,255,255,0.5);
 }
-/*@media(max-width:480px){
-  #main .thumbnails {
-    display: block;
-  } */
-/* 메인 상품이미지 시작부분 */
 #columns{
         column-width:210px;
         column-gap: 15px;
