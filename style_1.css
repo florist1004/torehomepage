@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -59,11 +62,6 @@ main{
   text-decoration: none;
   border-bottom: 1px dotted rgba(255,255,255,0.5);
 }
-/*@media(max-width:480px){
-  #main .thumbnails {
-    display: block;
-  } */
-/* 메인 상품이미지 시작부분 */
 #columns{
         column-width:210px;
         column-gap: 15px;
@@ -92,5 +90,15 @@ figcaption h1{
     color: rgba(75, 29, 49, 0.67);
 
 }
+@media(max-width:480px)
+    .content {
+        display: block;
+}
+     nav {
+        clear:both; width:0px; height:0px; display:none;  
+}
+   
+/* 메인 상품이미지 시작부분 */
+
 
 /* 메인상품 끝부분 */
