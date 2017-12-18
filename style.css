@@ -1,3 +1,4 @@
+
 .container{
     display: flex;
     flex-direction: column;
@@ -133,9 +134,12 @@ nav ul.icons li a{
     text-align: center;  
 }
 figcaption h1{
-    background-color: rgba(172, 171, 212, 0.3);
+    background-color: rgba(172, 171, 212, 0.2);
     padding: 7px;
     margin-bottom: 10px;
+    font-family: Haan Baekje B;
+    color: rgba(26, 70, 31, 0.67);
 }
-
+ul {
+	list-style: none;
 /* 메인상품 끝부분 */

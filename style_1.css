@@ -86,8 +86,11 @@ main{
         text-align: center;  
       }
 figcaption h1{
-    background-color: rgba(172, 171, 212, 0.3);
+    background-color: rgba(172, 171, 212, 0.2);
     padding: 7px;
+        font-family: Haan Baekje B;
+    color: rgba(75, 29, 49, 0.67);
+
 }
 
 /* 메인상품 끝부분 */
